@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.yuexin.bean">
+    <class name="IdCard" table="id_card">
+        <id name="id">
+            <generator class="foreign">
+                <param name="property">people</param>
+            </generator>
+        </id>
+        <property name="name"/>
+        <one-to-one name="people" constrained="true"/>
+    </class>
+</hibernate-mapping>

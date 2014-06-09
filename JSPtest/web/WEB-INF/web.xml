@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+
+    <!--<filter>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>servlet.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>-->
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
+    <servlet>
+        <servlet-name>TestCookieServlet</servlet-name>
+        <servlet-class>servlet.TestCookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PdfTemplateExoprtServlet</servlet-name>
+        <servlet-class>servlet.PdfTemplateExoprtServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PdfTemplateExoprtServlet</servlet-name>
+        <url-pattern>/servlet/PdfTemplateExoprtServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/servlet/MyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestCookieServlet</servlet-name>
+        <url-pattern>/servlet/TestCookieServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

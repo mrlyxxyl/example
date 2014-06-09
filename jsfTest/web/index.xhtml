@@ -1,0 +1,149 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <title>导入发票信息</title>
+        <style type="text/css">
+            .label {
+                text-align: right;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        </style>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="inputform" enctype="multipart/form-data">
+            <p:messages id="msgs" showDetail="true" showSummary="true"/>
+            <p:panel>
+                <h:panelGrid id="dataPanel" cellpadding="0" cellspacing="5" columns="4">
+                    <h:outputLabel value="文件:" styleClass="label"/>
+                    <p:fileUpload value="#{testAction.file}" mode="simple"/>
+                    <p:commandButton value="导入" ajax="false" actionListener="#{testAction.uploadFile}"
+                                     update="msgs,dtsuccess"/>
+                    <p:commandButton value="批量打印" update="msgs" ajax="false" actionListener="#{testAction.batPrint}"/>
+                </h:panelGrid>
+            </p:panel>
+            <br/>
+            <p:separator/>
+            <p:dataTable id="dtsuccess" height="200" selection="#{testAction.selectedInvoices}"
+                         value="#{testAction.invoiceList}" var="record"
+                         rowKey="#{record.id}"
+                         paginatorTemplate="{FirstPageLink} {PreviousPageLink} {PageLinks}
+                                    {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                         paginator="true" paginatorPosition="bottom" rows="15" rowsPerPageTemplate="100,50,15,10,5"
+                         emptyMessage="数据记录为空...">
+                <f:facet name="header">
+                    成功插入信息
+                </f:facet>
+                <p:column selectionMode="multiple" style="width:2%"/>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="单号"/>
+                    </f:facet>
+                    <h:outputText value="#{record.id}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="付款人名称"/>
+                    </f:facet>
+                    <h:outputText value="#{record.payerName}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="开票金额"/>
+                    </f:facet>
+                    <h:outputText value="#{record.vocPrice}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="开票类型"/>
+                    </f:facet>
+                    <h:outputText value="#{record.vocType}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="退票代码"/>
+                    </f:facet>
+                    <h:outputText value="#{record.exitVocCode}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="退票号码"/>
+                    </f:facet>
+                    <h:outputText value="#{record.exitVocNum}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="发票号码"/>
+                    </f:facet>
+                    <h:outputText value="#{record.voiNum}"/>
+                </p:column><p:column style="text-align:center">
+                <f:facet name="header">
+                    <h:outputText value="开票状态"/>
+                </f:facet>
+                <h:outputText value="#{record.vocState}"/>
+            </p:column>
+
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息1"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf1}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息2"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf2}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息3"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf3}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息4"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf4}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息5"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf5}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息6"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf6}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息7"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf7}"/>
+                </p:column>
+                <p:column style="text-align:center">
+                    <f:facet name="header">
+                        <h:outputText value="行业信息8"/>
+                    </f:facet>
+                    <h:outputText value="#{record.tradInf8}"/>
+                </p:column>
+                <f:facet name="footer">
+                    <h:commandLink>
+                        <h:outputText value="[导出数据]"/>
+                        <p:dataExporter type="xls" target="dtsuccess" fileName="custInfos"/>
+                    </h:commandLink>
+                </f:facet>
+            </p:dataTable>
+            <br/>
+        </h:form>
+    </ui:define>
+</ui:composition>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.yuexin.bean">
+    <class name="Dept">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <set name="emps" cascade="all" > <!--inverse="true"  是否放弃级联维护  cascade="all" 级联设置-->
+            <key column="did"/>
+            <one-to-many class="Emp" />
+        </set>
+    </class>
+</hibernate-mapping>

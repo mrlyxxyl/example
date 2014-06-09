@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <!--<constant name="struts.action.extension" value="do"/>-->
+    <!--<constant name="struts.multipart.maxSize" value="10485760"/> 以字节为单位10M-->
+    <constant name="struts.custom.i18n.resources" value="yuexin"/>
+    <constant name="struts.ui.theme" value="simple"/>
+    <package name="yuexin" namespace="/test" extends="struts-default">
+        <interceptors>
+            <interceptor name="permission" class="interceptor.MyInterceptor"/>
+            <interceptor-stack name="permissionStack">
+                <interceptor-ref name="permission"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="message">/page/message.jsp</result>
+        </global-results>
+        <action name="helloword" class="action.HelloWordAction">
+            <param name="username">nanmeiying</param>
+            <result>/page/welcome.jsp</result>
+        </action>
+        <action name="login" class="action.LoginAction">
+            <result>/page/success.jsp</result>
+        </action>
+
+        <action name="upload" class="action.UploadAction">
+            <result>/page/success.jsp</result>
+        </action>
+
+        <action name="inter_*" class="action.InterceptorAction" method="{1}">
+            <interceptor-ref name="permissionStack"/>
+            <result>/page/success.jsp</result>
+        </action>
+
+        <action name="validate_*" class="action.ValidateAction" method="{1}">
+            <result>/page/success.jsp</result>
+            <result name="input">/page/validate.jsp</result>
+        </action>
+
+        <action name="ognl" class="action.OGNLAction">
+            <result>/page/ognl.jsp</result>
+        </action>
+    </package>
+</struts>

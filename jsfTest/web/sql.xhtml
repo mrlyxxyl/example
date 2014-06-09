@@ -1,0 +1,18 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <title>sql执行页面</title>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="form">
+            <p:messages id="msgs"/>
+            <p:inputTextarea id="sqlid" value="#{sqlAction.sqlStr}" autoResize="true" cols="60" rows="10"
+                             required="true" requiredMessage="执行语句不得为空！"/>
+            <p:commandButton value="执行" actionListener="#{sqlAction.executeSQL}" update="msgs"/>
+        </h:form>
+    </ui:define>
+</ui:composition>

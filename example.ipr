@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" build-on-make="true" name="JSPtest">
+      <output-path>$PROJECT_DIR$/../out/artifacts/JSPtest</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="JSPtest" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/JSPtest/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/JSPtest/lib/iText.jar" />
+          </element>
+        </element>
+        <element id="javaee-facet-resources" facet="JSPtest/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="javaweb_poi_word">
+      <output-path>$PROJECT_DIR$/../out/artifacts/javaweb_poi_word</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="JSPtest" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/JSPtest/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/JSPtest/lib/iText.jar" />
+          </element>
+        </element>
+        <element id="javaee-facet-resources" facet="JSPtest/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="jsfTest">
+      <output-path>$PROJECT_DIR$/../out/artifacts/jsfTest</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="jsfTest/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="jsfTest" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-collections-3.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-digester-2.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jsf-api.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jsf-impl.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/standard.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/primefaces-3.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/hot-sneaks-1.0.9.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-fileupload-1.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-logging.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/commons-io-2.4.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/aspectjweaver.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/spring.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/common-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jxls-reader-1.0.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/poi-3.7-20101029.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/poi-ooxml-3.7-20101029.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jxl.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/jxls-core-1.0.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/iText-5.0.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/jsfTest/web/WEB-INF/lib/ojdbc6.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="mybatis">
+      <output-path>$PROJECT_DIR$/../out/artifacts/mybatis</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="mybatis/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="mybatis" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/junit-4.9b2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/mybatis-3.0.5-SNAPSHOT.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/mysql-connector-java-5.1.6-bin.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/org.apache.log4j_1.2.15.v201005080500.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="ssh">
+      <output-path>$PROJECT_DIR$/../out/artifacts/ssh</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="ssh/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="ssh" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/antlr-2.7.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/aspectjrt.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/aspectjweaver.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/bsf-2.3.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/common-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-chain-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-collections-3.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-dbcp.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-digester-1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-fileupload-1.1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-io-1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-logging.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-pool.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/commons-validator-1.3.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/ehcache-1.2.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/ejb3-persistence.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/hibernate-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/hibernate-cglib-repack-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/hibernate-commons-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/hibernate-entitymanager.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/hibernate3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/javassist-3.4.GA.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/jstl.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/jta-1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/log4j-1.2.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/log4j.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/mysql-connector-java-5.1.21-bin.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/oro-2.0.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/slf4j-api-1.5.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/slf4j-log4j12.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/spring-webmvc-struts.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/spring.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/standard.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-core-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-el-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-extras-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-faces-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-mailreader-dao-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-scripting-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-taglib-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/ssh/web/WEB-INF/lib/struts-tiles-1.3.10.jar" />
+            <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="struts">
+      <output-path>$PROJECT_DIR$/../out/artifacts/struts</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="struts/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="struts" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/freemarker-2.3.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/ognl-2.7.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/standard.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ServletTest:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/ServletTest_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="ServletTest/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="ServletTest" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/ServletTest/web/WEB-INF/lib/iText.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="webFileOper:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/webFileOper_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="webFileOper/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="webFileOper" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/webFileOper/lib/iText-5.0.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/ojdbc6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/poi-3.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/mysql-connector-java-5.1.21-bin.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/commons-lang-2.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/commons-logging.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/commons-beanutils.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/commons-collections-3.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/commontest/lib/commons-io-1.4.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="qqtanchukuang:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/qqtanchukuang_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="qqtanchukuang/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="qqtanchukuang" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="autologin:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/autologin_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="autologin/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="autologin" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/autologin/web/WEB-INF/lib/yuexin.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="struts2:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="struts2/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="struts2" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/freemarker-2.3.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/ognl-2.7.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/standard.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2/web/WEB-INF/lib/commons-io-1.1.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="struts2_test:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_test_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="struts2_test/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="struts2_test" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/freemarker-2.3.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/ognl-2.7.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/standard.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-io-1.1.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="sshTest:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/sshTest_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="sshTest/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="sshTest" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/antlr-2.7.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-collections-3.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-dbcp.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-logging.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-pool.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/ehcache-1.2.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/hibernate3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/javassist-3.4.GA.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/jta-1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/log4j.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/mysql-connector-java-5.1.21-bin.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/slf4j-api-1.5.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/slf4j-log4j12.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/spring.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-io-1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/freemarker-2.3.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/jstl-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/ognl-2.7.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/standard.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/spring-webmvc-struts.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/aspectjweaver.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-digester-1.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-faces-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-extras-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-taglib-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-validator-1.3.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-tiles-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-mailreader-dao-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/bsf-2.3.0.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/aspectjrt.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/oro-2.0.8.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/hibernate-cglib-repack-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/common-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/log4j-1.2.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/commons-chain-1.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/hibernate-entitymanager.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-scripting-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/hibernate-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/ejb3-persistence.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/hibernate-commons-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/struts-el-1.3.10.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/sshTest/web/WEB-INF/lib/mysql-connector-java-5.1.29-bin.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="jacob:war exploded">
+      <output-path>$PROJECT_DIR$/../out/artifacts/jacob_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="jacob/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="jacob" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/jacob/lib/jacob.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/commontest/src/DateTrans.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/MyFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/TestAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/TestFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/TestKeyAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/TestPaint.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/UI/TestTextFieldAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/action/CharacterTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commontest/src/action/TestSystem.java" charset="GBK" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="9B4D895CF0CD60C64FB3B60023E11221" />
+  <component name="JRebel Project data">
+    <option name="privateKey" value="3082025d020100028181008452d3d03fa3bfc2ddab2302bebf02a352f15bcb13d66dcc35e86523e7ce424c226bd09e5de8898ff5e0b2bf968af39d1f1addb61f24a15e5a95e7b79c9c9a9269b7c815eb749a063fe1990b8cb3807224e748a02e9ba9bb64824a6ab886222e8cc7d6ecce0b7a3cb192fc4aaca07a87c3ddb32c3af7c0d5adb9c2d23cbf2bed02030100010281804526239a88274266cb004be37b5ac63e23720dce2a27bc692322b6f7f4834d120c4adb526730c5f27d435725d7bdf560fe8843a490d1cba24b245b5b1074a6316cc03affe75704eaf128c3ac6c6c7b740b69dad6b23f7616ec755889935763abfa1cd2503e9e36587e14894a6fa1852e73a5981b1453c4dd5dbdbba3adbb1f01024100b89d5cf8d6f79d798e0607f039bc083da4dccf4ccfa7846ed0cd414ba874c1d073417a0deaca4b1104c8e02823c093f6ea71b8b7199f15a99064b9075b401119024100b77d44a9693b4b96dffeb14cb7a95f71be3019c3378f526654d38e3e027c7be8e8f6460ca087c518becfad092c46a8cb25b1f99d85756c50a1e236b0eaf427f5024100b3f327b1a290401e41129de049d67fcdde8a214284d28ba31cc2459842be74410467595a8176e7ced1f41f92e0ae914bc7e04ba5a642cbf1b93e84a0a8107dd9024100a4eeaff24bc9e5d7377efba6070cf2e30ddeb4b99a4e74f5d0d7dceaf65729162199853bc26c680927330bc9cc07b39fef413c2b90940d09a989ea393ae8bea502404daf14f67c8fa9ad74ced959cbee986f6d28a79b524976c7de8d597963faa2c45587cd37e66d028961fd4b8efa1b0082c721beafb45369c68977b88639779b09" />
+    <option name="publicKey" value="308189028181008452d3d03fa3bfc2ddab2302bebf02a352f15bcb13d66dcc35e86523e7ce424c226bd09e5de8898ff5e0b2bf968af39d1f1addb61f24a15e5a95e7b79c9c9a9269b7c815eb749a063fe1990b8cb3807224e748a02e9ba9bb64824a6ab886222e8cc7d6ecce0b7a3cb192fc4aaca07a87c3ddb32c3af7c0d5adb9c2d23cbf2bed0203010001" />
+  </component>
+  <component name="JsfProjectComponent">
+    <option name="faceletsSupport" value="ENABLED" />
+  </component>
+  <component name="Palette2">
+    <group name="Swing">
+      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+      </item>
+      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+        <initial-values>
+          <property name="text" value="Button" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="RadioButton" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="CheckBox" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="Label" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+          <preferred-size width="-1" height="20" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+      </item>
+    </group>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JSPtest/JSPtest.iml" filepath="$PROJECT_DIR$/JSPtest/JSPtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletTest/ServletTest.iml" filepath="$PROJECT_DIR$/ServletTest/ServletTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autologin/autologin.iml" filepath="$PROJECT_DIR$/autologin/autologin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commontest/commontest.iml" filepath="$PROJECT_DIR$/commontest/commontest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dom4jTest/dom4jTest.iml" filepath="$PROJECT_DIR$/dom4jTest/dom4jTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erweima/erweima.iml" filepath="$PROJECT_DIR$/erweima/erweima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileOper/fileOper.iml" filepath="$PROJECT_DIR$/fileOper/fileOper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flappybird/flappybird.iml" filepath="$PROJECT_DIR$/flappybird/flappybird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernateTest/hibernateTest.iml" filepath="$PROJECT_DIR$/hibernateTest/hibernateTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2seTest/j2seTest.iml" filepath="$PROJECT_DIR$/j2seTest/j2seTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jacob/jacob.iml" filepath="$PROJECT_DIR$/jacob/jacob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsfTest/jsfTest.iml" filepath="$PROJECT_DIR$/jsfTest/jsfTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqtanchukuang/qqtanchukuang.iml" filepath="$PROJECT_DIR$/qqtanchukuang/qqtanchukuang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sh/sh.iml" filepath="$PROJECT_DIR$/sh/sh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springAOP/springAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springTest/springTest.iml" filepath="$PROJECT_DIR$/springTest/springTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh/ssh.iml" filepath="$PROJECT_DIR$/ssh/ssh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sshTest/sshTest.iml" filepath="$PROJECT_DIR$/sshTest/sshTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts/struts.iml" filepath="$PROJECT_DIR$/struts/struts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2/struts2.iml" filepath="$PROJECT_DIR$/struts2/struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjni/testjni.iml" filepath="$PROJECT_DIR$/testjni/testjni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webFileOper/webFileOper.iml" filepath="$PROJECT_DIR$/webFileOper/webFileOper.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$/JSPtest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ServletTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/autologin" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/commontest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/fileOper" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/flappybird" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hibernate" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/hibernateTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/j2seTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/jacob" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/jsfTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/log4j" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mybatis" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mybatisGenerator" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/qqtanchukuang" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/sh" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/springAOP" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/springTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ssh" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/sshTest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/struts" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/struts2" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/testjni" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/webFileOper" vcs="svn" />
+  </component>
+</project>
+

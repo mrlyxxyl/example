@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.yuexin.bean">
+
+    <!--一个类继承体系-->
+    <!--
+        <class name="Emp">
+            <id name="id">
+                <generator class="native"/>
+            </id>
+            <discriminator column="type" type="int"/>
+            <property name="name"/>
+            <subclass name="Skiller" discriminator-value="1">
+                <property name="skill"/>
+            </subclass>
+            <subclass name="Sales" discriminator-value="2">
+                <property name="sale"/>
+            </subclass>
+        </class>
+
+        &lt;!&ndash;每个子类单独成表&ndash;&gt;
+        <class name="Emp">
+            <id name="id">
+                <generator class="native"/>
+            </id>
+            <property name="name"/>
+            <joined-subclass name="Skiller">
+                <key column="emp_id"/>
+                <property name="skill"/>
+            </joined-subclass>
+            <joined-subclass name="Sales">
+                <key column="emp_id"/>
+                <property name="sale"/>
+            </joined-subclass>
+        </class>
+    -->
+
+    <!--每个具体类单独成表-->
+    <class name="Emp">
+        <id name="id">
+            <generator class="hilo"/>
+        </id>
+        <property name="name"/>
+        <union-subclass name="Skiller">
+            <property name="skill"/>
+        </union-subclass>
+
+        <union-subclass name="Sales">
+            <property name="sale"/>
+        </union-subclass>
+    </class>
+</hibernate-mapping>

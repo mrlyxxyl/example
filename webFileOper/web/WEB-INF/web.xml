@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <servlet>
+        <servlet-name>PdfServlet</servlet-name>
+        <servlet-class>action.PdfServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PdfServlet</servlet-name>
+        <url-pattern>/servlet/PdfServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PdfTwoServlet</servlet-name>
+        <servlet-class>action.PdfTwoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PdfTwoServlet</servlet-name>
+        <url-pattern>/servlet/PdfTwoServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

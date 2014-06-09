@@ -1,0 +1,10 @@
+一:要有数据表
+二:配置generatorConfig.xml文件
+具体：
+	jdbc的jar包
+	jdbc连接配置
+	targetPackage属性
+	targetProject属性
+	table标签
+直接运行Ibator即可
+
