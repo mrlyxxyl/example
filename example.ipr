@@ -533,6 +533,7 @@
       <module fileurl="file://$PROJECT_DIR$/j2seTest/j2seTest.iml" filepath="$PROJECT_DIR$/j2seTest/j2seTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jacob/jacob.iml" filepath="$PROJECT_DIR$/jacob/jacob.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsfTest/jsfTest.iml" filepath="$PROJECT_DIR$/jsfTest/jsfTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonTest/jsonTest.iml" filepath="$PROJECT_DIR$/jsonTest/jsonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
