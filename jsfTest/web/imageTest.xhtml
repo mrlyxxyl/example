@@ -1,0 +1,17 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <title>图片测试</title>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="inputform">
+            <!--images需要放到web目录下的resources目录下，并且应该用name属性指定所要的图片名称，不是value-->
+            <p:graphicImage library="images" name="a.jpg"/>
+            <h:graphicImage library="images" name="a.jpg"/>
+        </h:form>
+    </ui:define>
+</ui:composition>
