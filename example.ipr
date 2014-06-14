@@ -536,8 +536,8 @@
       <module fileurl="file://$PROJECT_DIR$/jsfTest/jsfTest.iml" filepath="$PROJECT_DIR$/jsfTest/jsfTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsonTest/jsonTest.iml" filepath="$PROJECT_DIR$/jsonTest/jsonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" filepath="$PROJECT_DIR$/mybatisGenerator/mybatisGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatistest/mybatistest.iml" filepath="$PROJECT_DIR$/mybatistest/mybatistest.iml" />
       <module fileurl="file://$PROJECT_DIR$/qqtanchukuang/qqtanchukuang.iml" filepath="$PROJECT_DIR$/qqtanchukuang/qqtanchukuang.iml" />
       <module fileurl="file://$PROJECT_DIR$/sh/sh.iml" filepath="$PROJECT_DIR$/sh/sh.iml" />
       <module fileurl="file://$PROJECT_DIR$/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springAOP/springAOP.iml" />
@@ -570,7 +570,6 @@
     <mapping directory="$PROJECT_DIR$/jacob" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/jsfTest" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/log4j" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/mybatis" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/mybatisGenerator" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/qqtanchukuang" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/sh" vcs="svn" />
