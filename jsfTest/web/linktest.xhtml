@@ -1,0 +1,17 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <title>sql执行页面</title>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="form">
+            <h:link value="welcome" outcome="/welcome.xhtml" target="_blank">
+                <f:param name="id" value="#{form.userId}"/>
+            </h:link>
+        </h:form>
+    </ui:define>
+</ui:composition>
