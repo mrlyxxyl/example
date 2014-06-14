@@ -15,3 +15,5 @@
     9、接口中的查询方式如一下：
     @Select("select id,name from user where id = #{id}")
     User getUserById2(@Param("id") int id);
+
+    10、本实例还包括，类属性和数据库字段不相同的解决办法，利用resultMap

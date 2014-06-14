@@ -5,24 +5,30 @@
 
 <mapper namespace="com.yuexin.dao.User2Dao">
 
-    <sql id="userColumns">name</sql>
+    <resultMap id="userMap" type="com.yuexin.bean.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="firstName" column="first_name"/>
+    </resultMap>
+
+    <sql id="userColumns">name,first_name</sql>
     <insert id="insert" parameterType="com.yuexin.bean.User">
-        insert into user (<include refid="userColumns"/>) values (#{name})
+        insert into user (<include refid="userColumns"/>) values (#{name},#{firstName})
     </insert>
 
-    <select id="getUserById" parameterType="int" resultType="com.yuexin.bean.User">
-        select id,name from user where id = #{id}
+    <select id="getUserById" parameterType="int" resultMap="userMap">
+        select id,name,first_name from user where id = #{id}
     </select>
 
     <update id="updateUser" parameterType="com.yuexin.bean.User">
-        update user set name=#{name} where id = #{id}
+        update user set name=#{name},first_name = #{firstName} where id = #{id}
     </update>
 
     <delete id="deleteUser" parameterType="int">
         delete from user where id = #{id}
     </delete>
-    <select id="getUsers" resultType="com.yuexin.bean.User">
-        select id,name from user;
+    <select id="getUsers" resultMap="userMap">
+        select id,name,first_name from user;
     </select>
 
 </mapper>

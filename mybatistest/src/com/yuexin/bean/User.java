@@ -3,6 +3,7 @@ package com.yuexin.bean;
 public class User {
     private int id;
     private String name;
+    private String firstName;
 
     public int getId() {
         return id;
@@ -20,11 +21,21 @@ public class User {
         this.name = name;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", firstName='" + firstName + '\'' +
                 '}';
     }
 }

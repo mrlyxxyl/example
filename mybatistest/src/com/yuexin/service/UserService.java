@@ -12,7 +12,7 @@ public class UserService {
     private User2Dao user2Dao;
 
     public User getUser() {
-        User user = user2Dao.getUserById2(4);
+        User user = user2Dao.getUserById2(1);
         return user;
     }
 }

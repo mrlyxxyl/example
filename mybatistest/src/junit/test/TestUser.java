@@ -15,6 +15,7 @@ public class TestUser {
     public void testInsert() {
         User user = new User();
         user.setName("nanmeiying");
+        user.setFirstName("firstName");
         UserDao dao = new UserDaoImpl();
         int nu = dao.insert(user);
         System.out.println(nu);
@@ -23,16 +24,17 @@ public class TestUser {
     @Test
     public void testFind() {
         UserDao dao = new UserDaoImpl();
-        User user = dao.getUserById(3);
-        System.out.println(user.getName());
+        User user = dao.getUserById(1);
+        System.out.println(user.getFirstName());
     }
 
     @Test
     public void testUpdate() {
         UserDao dao = new UserDaoImpl();
         User user = new User();
-        user.setId(4);
-        user.setName("eeeee");
+        user.setId(1);
+        user.setName("hahhahahaha");
+        user.setFirstName("scejfdlksjlkfds");
         int dd = dao.updateUser(user);
         System.out.println(dd);
     }
@@ -40,7 +42,7 @@ public class TestUser {
     @Test
     public void testDelete() {
         UserDao dao = new UserDaoImpl();
-        int num = dao.deleteUser(12);
+        int num = dao.deleteUser(4);
         System.out.println(num);
     }
 
@@ -56,9 +58,20 @@ public class TestUser {
     @Test
     public void testMapper() {
         SqlSession sqlSession = MyBatisUtil.getSqlSession();
-        User2Dao user2Dao = sqlSession.getMapper(User2Dao.class);
-        User user = user2Dao.getUserById2(9);
-        System.out.println(user.getName());
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        List<User> users = userDao.getUsers();
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 
+    @Test
+    public void testDao2() {
+        SqlSession sqlSession = MyBatisUtil.getSqlSession();
+        User2Dao dao = sqlSession.getMapper(User2Dao.class);
+        User user = dao.getUserById2(9);
+        System.out.println(user.getName());
+
+
+    }
 }

@@ -14,8 +14,8 @@ public class TestSpringMybatis {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         SqlSessionFactory factory = (SqlSessionFactory) ac.getBean("sqlSessionFactory");
         SqlSession sqlSession = factory.openSession();
-        User user = sqlSession.selectOne("getUserById2", 4);
-        System.out.println(user.getName());
+        User user = sqlSession.selectOne("getUserById2", 2);
+        System.out.println(user.getFirstName());
     }
 
     @Test
@@ -23,7 +23,6 @@ public class TestSpringMybatis {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserService service = (UserService) ac.getBean("userService");
         User user = service.getUser();
-        System.out.println(user.getName());
+        System.out.println(user.getFirstName());
     }
-
 }
