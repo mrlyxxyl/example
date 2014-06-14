@@ -3,10 +3,11 @@ package action;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
+import java.io.Serializable;
 
 @ManagedBean
 @ViewScoped
-public class Managed2Action {
+public class Managed2Action implements Serializable {
     @ManagedProperty(value = "#{managed1Action}")
     private Managed1Action managed1Action;
 

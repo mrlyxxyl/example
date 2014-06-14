@@ -7,12 +7,13 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean
 @ViewScoped
-public class BtnAction {
+public class BtnAction implements Serializable {
     private boolean flag;
     private Thread thread;
     private List<People> list;

@@ -32,7 +32,7 @@
     <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/pscoredetailEdit.js" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1383717762859" ignored="false" />
     <file path="/TestString.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1401243336684" ignored="false" />
     <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/uncomcreditEdit.js" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1383908832590" ignored="false" />
-    <file path="/fragment.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402695737699" ignored="false" />
+    <file path="/fragment.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402707864827" ignored="false" />
     <file path="/index.jsp" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1401244806415" ignored="false" />
     <file path="/login.jsp" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1392534583885" ignored="false" />
     <file path="/injection.groovy" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1384059358442" ignored="false" />
@@ -758,7 +758,7 @@
     <file path="/GenerateRandomNumber.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1399184810639" ignored="false" />
     <file path="/InvInvInfo.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1399194156040" ignored="false" />
     <file path="/btntest.xhtml" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1399277304511" ignored="false" />
-    <file path="/BtnAction.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1399277120882" ignored="false" />
+    <file path="/BtnAction.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402707944986" ignored="false" />
     <file path="$PROJECT_DIR$/../shuikong/src/prjcfg.properties" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1401946977126" ignored="false" />
     <file path="/TestSplit.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1399472079960" ignored="false" />
     <file path="/TestTry.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1400029327457" ignored="false" />
@@ -827,6 +827,8 @@
     <file path="/Managed2Action.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402706630537" ignored="false" />
     <file path="/Managed1Action.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402706617325" ignored="false" />
     <file path="/managedtest.xhtml" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402706581381" ignored="false" />
+    <file path="/faces-config.xml" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402707887536" ignored="false" />
+    <file path="/ShowPhaseListener.java" changelist="55ce75c7-f2b7-4220-8a7c-ee58665a91f9" time="1402708478668" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1175,114 +1177,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="message_en_US.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/src/message_en_US.properties">
-          <provider editor-type-id="ResourceBundle">
+      <file leaf-file-name="ShowPhaseListener.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/listener/ShowPhaseListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="33" selection-start="398" selection-end="398" vertical-scroll-proportion="0.14814815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/web/WEB-INF/faces-config.xml">
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="38" selection-start="349" selection-end="349" vertical-scroll-proportion="-8.333333">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/web/index.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1394615594334" expanded="false" signature="2105:2113" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="2150:2167" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="2414:2431" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="2688:2705" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="2960:2977" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="3231:3248" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="3506:3523" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="3780:3797" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="4033:4050" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="4286:4303" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="4559:4576" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="4832:4849" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="5105:5122" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="5378:5395" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="5651:5668" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="5924:5941" placeholder="{...}" />
-                <marker date="1394615594334" expanded="false" signature="6197:6214" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guojihua.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/web/guojihua.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="65" selection-start="524" selection-end="524" vertical-scroll-proportion="-7.352941">
-              <folding>
-                <marker date="1402704688334" expanded="false" signature="256:273" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="btntest.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/web/btntest.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="239" selection-end="273" vertical-scroll-proportion="-2.9411764">
-              <folding>
-                <marker date="1399277320765" expanded="true" signature="675:688" placeholder="{...}" />
-                <marker date="1399277320765" expanded="true" signature="1640:1655" placeholder="{...}" />
-                <marker date="1399277320765" expanded="true" signature="1907:1924" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="managedtest.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsfTest/web/managedtest.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="405" selection-end="405" vertical-scroll-proportion="0.13194445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/TestAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BtnAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/BtnAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="313" selection-end="337" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Managed2Action.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed2Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Managed1Action.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed1Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="164" selection-end="171" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1299,7 +1213,79 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="38" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
+            <state line="31" column="38" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-28.703703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/web/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="28" selection-start="350" selection-end="350" vertical-scroll-proportion="8.088235">
+              <folding>
+                <marker date="1394615594334" expanded="true" signature="2105:2113" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="2150:2167" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="2414:2431" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="2688:2705" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="2960:2977" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="3231:3248" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="3506:3523" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="3780:3797" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="4033:4050" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="4286:4303" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="4559:4576" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="4832:4849" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="5105:5122" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="5378:5395" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="5651:5668" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="5924:5941" placeholder="{...}" />
+                <marker date="1394615594334" expanded="true" signature="6197:6214" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtnAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/BtnAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="46" selection-start="389" selection-end="413" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Managed2Action.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed2Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/SqlAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="46" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/TestAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Managed1Action.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed1Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1315,10 +1301,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/commontest/src/action/TestSet.java" />
-        <option value="$PROJECT_DIR$/ssh/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sshTest/src/application.xml" />
-        <option value="$PROJECT_DIR$/hibernateTest/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/hibernateTest/src/test/TestAnotaionBean.java" />
         <option value="$PROJECT_DIR$/hibernateTest/src/com/yuexin/bean/AnotaionBean.java" />
         <option value="$PROJECT_DIR$/jsonTest/src/json/MyBeanWithPerson.java" />
@@ -1328,9 +1310,13 @@
         <option value="$PROJECT_DIR$/jsonTest/src/json/TestXml.java" />
         <option value="$PROJECT_DIR$/dom4jTest/src/TestXml.java" />
         <option value="$PROJECT_DIR$/jsfTest/web/guojihua.xhtml" />
+        <option value="$PROJECT_DIR$/jsfTest/web/managedtest.xhtml" />
+        <option value="$PROJECT_DIR$/jsfTest/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/jsfTest/src/action/BtnAction.java" />
         <option value="$PROJECT_DIR$/jsfTest/src/action/Managed1Action.java" />
         <option value="$PROJECT_DIR$/jsfTest/src/action/Managed2Action.java" />
-        <option value="$PROJECT_DIR$/jsfTest/web/managedtest.xhtml" />
+        <option value="$PROJECT_DIR$/jsfTest/src/action/SqlAction.java" />
+        <option value="$PROJECT_DIR$/jsfTest/src/listener/ShowPhaseListener.java" />
       </list>
     </option>
   </component>
@@ -1343,8 +1329,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-31" />
-    <option name="y" value="29" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -1398,36 +1384,99 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="erweima">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="erweima">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
@@ -1504,8 +1553,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="listener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsfTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="erweima">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="erweima">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1531,17 +1625,17 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listener" />
       <recent name="json" />
       <recent name="action" />
       <recent name="jdbc" />
       <recent name="mysql" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\gitworkspace\example\jsfTest\web" />
@@ -1550,15 +1644,15 @@
       <recent name="E:\gitworkspace\example\jsonTest\src" />
       <recent name="E:\gitworkspace\example\dom4jTest\lib" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\example\commontest\lib" />
       <recent name="E:\workspace\example\mybatis_spring\lib" />
       <recent name="E:\workspace\example\commontest\src\jni" />
       <recent name="E:\workspace\example\commontest\src" />
       <recent name="E:\workspace\example\sshTest\src\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.jsfTest">
@@ -1693,6 +1787,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1721,19 +1828,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1756,13 +1850,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1782,6 +1869,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -2845,7 +2939,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="29" width="1616" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2853,7 +2947,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47977686" sideWeight="0.9991189" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36401674" sideWeight="0.9991189" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33054394" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27754533" sideWeight="0.5006443" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2866,7 +2960,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32775453" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22873712" sideWeight="0.52022314" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22873712" sideWeight="0.6359833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31799164" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2940,34 +3034,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSPtest/web/htmlExcel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dom4jTest/src/TestDom4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonTest/src/json/TeacherBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dom4jTest/src/users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dom4jTest/src/TestXml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
@@ -2976,69 +3042,80 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsfTest/src/message_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsfTest/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1394615594334" expanded="false" signature="2105:2113" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="2150:2167" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="2414:2431" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="2688:2705" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="2960:2977" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="3231:3248" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="3506:3523" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="3780:3797" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="4033:4050" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="4286:4303" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="4559:4576" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="4832:4849" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="5105:5122" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="5378:5395" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="5651:5668" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="5924:5941" placeholder="{...}" />
-            <marker date="1394615594334" expanded="false" signature="6197:6214" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsfTest/src/message_zh_CN.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/guojihua.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="65" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1402704688334" expanded="false" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsfTest/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/btntest.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="38" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
+        <state line="4" column="72" selection-start="239" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1399277320765" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399277320765" expanded="false" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399277320765" expanded="false" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/managedtest.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="405" selection-end="405" vertical-scroll-proportion="-8.088235">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="350" selection-end="350" vertical-scroll-proportion="8.088235">
+          <folding>
+            <marker date="1394615594334" expanded="true" signature="2105:2113" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="2150:2167" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="2414:2431" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="2688:2705" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="2960:2977" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="3231:3248" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="3506:3523" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="3780:3797" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="4033:4050" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="4286:4303" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="4559:4576" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="4832:4849" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="5105:5122" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="5378:5395" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="5651:5668" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="5924:5941" placeholder="{...}" />
+            <marker date="1394615594334" expanded="true" signature="6197:6214" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsfTest/src/action/BtnAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="313" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="15" column="46" selection-start="389" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -3050,47 +3127,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsfTest/web/guojihua.xhtml">
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="65" selection-start="524" selection-end="524" vertical-scroll-proportion="-7.352941">
-          <folding>
-            <marker date="1402704688334" expanded="false" signature="256:273" placeholder="{...}" />
-          </folding>
+        <state line="31" column="38" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-28.703703">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsfTest/web/btntest.xhtml">
+    <entry file="file://$PROJECT_DIR$/jsfTest/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="239" selection-end="273" vertical-scroll-proportion="-2.9411764">
-          <folding>
-            <marker date="1399277320765" expanded="true" signature="675:688" placeholder="{...}" />
-            <marker date="1399277320765" expanded="true" signature="1640:1655" placeholder="{...}" />
-            <marker date="1399277320765" expanded="true" signature="1907:1924" placeholder="{...}" />
-          </folding>
+        <state line="9" column="38" selection-start="349" selection-end="349" vertical-scroll-proportion="-8.333333">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed1Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="164" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="8" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsfTest/src/action/Managed2Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsfTest/web/managedtest.xhtml">
+    <entry file="file://$PROJECT_DIR$/jsfTest/src/action/SqlAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="405" selection-end="405" vertical-scroll-proportion="0.13194445">
+        <state line="16" column="46" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_13/src.zip!/java/util/EventObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="32" selection-start="770" selection-end="770" vertical-scroll-proportion="-0.037037037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsfTest/src/listener/ShowPhaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="398" selection-end="398" vertical-scroll-proportion="0.14814815">
           <folding />
         </state>
       </provider>

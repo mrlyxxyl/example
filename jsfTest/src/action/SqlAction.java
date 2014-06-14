@@ -5,6 +5,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 import java.io.IOException;
+import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,7 +14,7 @@ import java.util.Properties;
 
 @ManagedBean
 @ViewScoped
-public class SqlAction {
+public class SqlAction implements Serializable {
 
     private Connection connection;
     private Statement statement;
