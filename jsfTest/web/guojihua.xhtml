@@ -1,0 +1,17 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <title>国际化测试</title>
+    </ui:define>
+    <ui:define name="content">
+        <!--loadBundle只能放在此处-->
+        <f:loadBundle basename="message" var="msgs"/>
+        <h:form id="inputform" enctype="multipart/form-data">
+            <h:outputText value="#{msgs.name}"/>
+        </h:form>
+    </ui:define>
+</ui:composition>
