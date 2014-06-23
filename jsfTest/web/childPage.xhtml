@@ -1,0 +1,20 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/ui.xhtml">
+
+    <ui:define name="head">
+        <script>
+            function flushData() {
+                window.opener.document.getElementById("inputform:update").click();
+            }
+        </script>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="inputform">
+            <p:commandButton value="click" actionListener="#{testTableAction.click}" oncomplete="flushData();"/>
+
+        </h:form>
+    </ui:define>
+</ui:composition>
