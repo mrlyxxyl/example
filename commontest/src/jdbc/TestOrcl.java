@@ -14,7 +14,7 @@ public class TestOrcl {
         Connection connection;
         Statement statement;
         ResultSet rs;
-        List<String> strings = new ArrayList<>();
+        List<String> strings = new ArrayList<String>();
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
