@@ -29,7 +29,7 @@ public class BtnAction implements Serializable {
 
     public void btnTwo() {
         dataTable = new DataTable();
-        list = new ArrayList<>();
+        list = new ArrayList<People>();
         for (int i = 0; i < 10; i++) {
             list.add(new People("name" + i, i));
         }

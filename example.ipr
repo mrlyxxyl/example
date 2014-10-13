@@ -73,16 +73,36 @@
     <artifact type="exploded-war" build-on-make="true" name="mybatis">
       <output-path>$PROJECT_DIR$/../out/artifacts/mybatis</output-path>
       <root id="root">
-        <element id="javaee-facet-resources" facet="mybatis/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="mybatis" />
+            <element id="module-output" name="mybatistest" />
           </element>
           <element id="directory" name="lib">
-            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/junit-4.9b2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/mybatis-3.0.5-SNAPSHOT.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/mysql-connector-java-5.1.6-bin.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/mybatis/lib/org.apache.log4j_1.2.15.v201005080500.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/aopalliance.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/aspectjweaver.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/cglib-nodep-2.1_3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/cglib-nodep-2.2.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/common-annotations.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/commons-dbcp.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/commons-logging.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/commons-pool-1.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/mybatis-3.1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/mybatis-spring-1.1.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/mysql-connector-java-5.1.6-bin.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.aop-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.asm-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.aspects-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.beans-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.context-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.context.support-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.core-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.expression-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.jdbc-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.jms-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.test-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.transaction-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/mybatistest/lib/org.springframework.web-3.1.0.RELEASE.jar" />
+            <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar" />
           </element>
         </element>
       </root>
@@ -150,59 +170,26 @@
     <artifact type="exploded-war" build-on-make="true" name="struts">
       <output-path>$PROJECT_DIR$/../out/artifacts/struts</output-path>
       <root id="root">
-        <element id="javaee-facet-resources" facet="struts/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
             <element id="module-output" name="struts" />
-            <element id="module-output" name="springmvc" />
           </element>
           <element id="directory" name="lib">
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/freemarker-2.3.15.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/jstl-1.2.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/ognl-2.7.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/standard.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/jstl-1.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts/web/WEB-INF/lib/standard.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/org.springframework.asm-3.0.2.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/aopalliance-1.0.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/asm-3.1.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/aspectjrt-1.6.10.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/aspectjweaver-1.6.10.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/c3p0-0.9.2-pre8.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/cglib-2.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-dbcp-1.4.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-fileupload-1.3.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-io-1.1.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-pool-1.5.4.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/dom4j-1.6.1.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/junit-4.10.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/log4j-1.2.16.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/mysql-connector-java-5.1.9.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-jdbc-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-jms-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-orm-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-oxm-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-test-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" />
           </element>
         </element>
+        <element id="javaee-facet-resources" facet="struts/web/Web" />
       </root>
     </artifact>
-    <artifact type="exploded-war" name="ServletTest:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/ServletTest_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="ServletTest">
+      <output-path>$PROJECT_DIR$/../out/artifacts/ServletTest</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="ServletTest/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -215,8 +202,8 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="webFileOper:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/webFileOper_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="webFileOper">
+      <output-path>$PROJECT_DIR$/../out/artifacts/webFileOper</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="webFileOper/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -237,8 +224,8 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="qqtanchukuang:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/qqtanchukuang_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="qqtanchukuang">
+      <output-path>$PROJECT_DIR$/../out/artifacts/qqtanchukuang</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="qqtanchukuang/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -248,8 +235,8 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="autologin:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/autologin_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="autologin">
+      <output-path>$PROJECT_DIR$/../out/artifacts/autologin</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="autologin/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -262,8 +249,8 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="struts2:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="struts2">
+      <output-path>$PROJECT_DIR$/../out/artifacts/struts2</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="struts2/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -284,30 +271,12 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" build-on-make="true" name="struts2_test:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_test_war_exploded</output-path>
-      <root id="root">
-        <element id="javaee-facet-resources" facet="struts2_test/web/Web" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="struts2_test" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/freemarker-2.3.15.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/ognl-2.7.3.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/struts2-core-2.1.8.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/xwork-core-2.1.6.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/jstl-1.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/standard.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/struts2_test/web/WEB-INF/lib/commons-io-1.1.jar" />
-          </element>
-        </element>
-      </root>
+    <artifact type="exploded-war" build-on-make="true" name="struts2_test">
+      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_test</output-path>
+      <root id="root" />
     </artifact>
-    <artifact type="exploded-war" name="sshTest:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/sshTest_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="sshTest">
+      <output-path>$PROJECT_DIR$/../out/artifacts/sshTest</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="sshTest/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -368,8 +337,8 @@
         </element>
       </root>
     </artifact>
-    <artifact type="exploded-war" name="jacob:war exploded">
-      <output-path>$PROJECT_DIR$/../out/artifacts/jacob_war_exploded</output-path>
+    <artifact type="exploded-war" build-on-make="true" name="jacob">
+      <output-path>$PROJECT_DIR$/../out/artifacts/jacob</output-path>
       <root id="root">
         <element id="javaee-facet-resources" facet="jacob/web/Web" />
         <element id="directory" name="WEB-INF">
@@ -397,13 +366,13 @@
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/aspectjweaver-1.6.10.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/c3p0-0.9.2-pre8.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/cglib-2.2.jar" />
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-dbcp-1.4.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-fileupload-1.3.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-io-1.1.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-pool-1.5.4.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/jstl-1.2.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/junit-4.10.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/log4j-1.2.16.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/mysql-connector-java-5.1.9.jar" />
@@ -422,9 +391,21 @@
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-test-3.0.5.RELEASE.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" />
           </element>
         </element>
         <element id="javaee-facet-resources" facet="springmvc/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="jquery">
+      <output-path>$PROJECT_DIR$/../out/artifacts/jquery</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="jquery/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="jquery" />
+          </element>
+        </element>
       </root>
     </artifact>
   </component>
@@ -611,6 +592,7 @@
       <module fileurl="file://$PROJECT_DIR$/hibernateTest/hibernateTest.iml" filepath="$PROJECT_DIR$/hibernateTest/hibernateTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2seTest/j2seTest.iml" filepath="$PROJECT_DIR$/j2seTest/j2seTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jacob/jacob.iml" filepath="$PROJECT_DIR$/jacob/jacob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jquery/jquery.iml" filepath="$PROJECT_DIR$/jquery/jquery.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsfTest/jsfTest.iml" filepath="$PROJECT_DIR$/jsfTest/jsfTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsonTest/jsonTest.iml" filepath="$PROJECT_DIR$/jsonTest/jsonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />

@@ -32,7 +32,7 @@
         <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat7" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0" level="application_server_libraries" />
   </component>
 </module>
 
