@@ -271,7 +271,6 @@
         </element>
       </root>
     </artifact>
-<<<<<<< HEAD
     <artifact type="exploded-war" build-on-make="true" name="struts2_test:war exploded">
       <output-path>$PROJECT_DIR$/../out/artifacts/struts2_test_war_exploded</output-path>
       <root id="root">
@@ -293,11 +292,6 @@
         </element>
         <element id="javaee-facet-resources" facet="struts2/web/Web" />
       </root>
-=======
-    <artifact type="exploded-war" build-on-make="true" name="struts2_test">
-      <output-path>$PROJECT_DIR$/../out/artifacts/struts2_test</output-path>
-      <root id="root" />
->>>>>>> origin/master
     </artifact>
     <artifact type="exploded-war" build-on-make="true" name="sshTest">
       <output-path>$PROJECT_DIR$/../out/artifacts/sshTest</output-path>
@@ -415,11 +409,6 @@
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-test-3.0.5.RELEASE.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" />
             <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" />
-<<<<<<< HEAD
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/jstl-1.2.jar" />
-=======
-            <element id="file-copy" path="$PROJECT_DIR$/springmvc/web/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" />
->>>>>>> origin/master
           </element>
         </element>
         <element id="javaee-facet-resources" facet="springmvc/web/Web" />
