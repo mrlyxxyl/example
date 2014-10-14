@@ -425,6 +425,26 @@
         </element>
       </root>
     </artifact>
+    <artifact type="exploded-war" build-on-make="true" name="httpClient">
+      <output-path>$PROJECT_DIR$/../out/artifacts/httpClient</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="httpClient" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/commons-codec-1.6.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/commons-logging-1.1.3.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/fluent-hc-4.3.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/httpclient-4.3.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/httpclient-cache-4.3.5.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/httpcore-4.3.2.jar" />
+            <element id="file-copy" path="$PROJECT_DIR$/httpClient/web/WEB-INF/lib/httpmime-4.3.5.jar" />
+          </element>
+        </element>
+        <element id="javaee-facet-resources" facet="httpClient/web/Web" />
+      </root>
+    </artifact>
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
@@ -608,6 +628,7 @@
       <module fileurl="file://$PROJECT_DIR$/flappybird/flappybird.iml" filepath="$PROJECT_DIR$/flappybird/flappybird.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/hibernateTest/hibernateTest.iml" filepath="$PROJECT_DIR$/hibernateTest/hibernateTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpClient/httpClient.iml" filepath="$PROJECT_DIR$/httpClient/httpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2seTest/j2seTest.iml" filepath="$PROJECT_DIR$/j2seTest/j2seTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jacob/jacob.iml" filepath="$PROJECT_DIR$/jacob/jacob.iml" />
       <module fileurl="file://$PROJECT_DIR$/jquery/jquery.iml" filepath="$PROJECT_DIR$/jquery/jquery.iml" />
