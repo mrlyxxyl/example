@@ -619,6 +619,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JSPtest/JSPtest.iml" filepath="$PROJECT_DIR$/JSPtest/JSPtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Screenshot/Screenshot.iml" filepath="$PROJECT_DIR$/Screenshot/Screenshot.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletTest/ServletTest.iml" filepath="$PROJECT_DIR$/ServletTest/ServletTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/autologin/autologin.iml" filepath="$PROJECT_DIR$/autologin/autologin.iml" />
       <module fileurl="file://$PROJECT_DIR$/commontest/commontest.iml" filepath="$PROJECT_DIR$/commontest/commontest.iml" />
@@ -650,7 +651,7 @@
       <module fileurl="file://$PROJECT_DIR$/webFileOper/webFileOper.iml" filepath="$PROJECT_DIR$/webFileOper/webFileOper.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/../out" />
   </component>
   <component name="SvnBranchConfigurationManager">
