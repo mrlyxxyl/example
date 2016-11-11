@@ -1,5 +1,4 @@
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+参数说明：
+| 序号   | 参数           | 是否必填  | 参数名称  | 参数描述   | 实例  |
+|  1    | page_number    | no       | 页码      | 默认1     | 1     |
+|  2    | page_size      | no       | 每页查询数量      | 默认20     | 20     |
